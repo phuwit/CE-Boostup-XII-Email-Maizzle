@@ -1,0 +1,21 @@
+/* Your custom CSS resets for email */
+@import "resets";
+
+@tailwind base;
+@tailwind components;
+
+/* Tailwind CSS components */
+/* @import "tailwindcss/components"; */
+
+/**
+* @import here any custom CSS components - that is, CSS that
+* you'd want loaded before the Tailwind utilities, so the
+* utilities can still override them.
+*/
+
+@tailwind utilities;
+/* Tailwind CSS utility classes */
+/* @import "tailwindcss/utilities"; */
+
+/* Your custom utility classes */
+@import "utilities";
