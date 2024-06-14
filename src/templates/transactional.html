@@ -1,54 +1,78 @@
 <x-main>
-  <div class=sm:px-4 font-sans">
+  <div class="sm:px-4 font-sans">
     <table align="center">
-      <tr class="">
+      <tr>
         <td class="w-[640px] max-w-full">
-          <table>
+          <div class="text-center">
+            <a href="https://ceboostup.com">
+              <img
+                src="https://cdn.jsdelivr.net/gh/phuwit/CE-Boostup-XII-Email-Maizzle@main/src/images/header.png"
+                alt="CE Boostup XII Header"
+                width="640"
+              />
+            </a>
+          </div>
+
+          <table class="w-full p-6">
             <tr>
-              <td>
-                <div class="text-center">
-                  <a href="https://ceboostup.com">
-                    <img
-                      src="https://cdn.jsdelivr.net/gh/phuwit/CE-Boostup-XII-Email-Maizzle@main/src/images/header.png"
-                      alt="CE Boostup XII Header"
-                    />
-                  </a>
-                </div>
-              </td>
-            </tr>
-          </table>
+              <td class="text-base space-y-8">
+                <table
+                  border="0"
+                  cellspacing="0"
+                  cellpadding="0"
+                  class="h-11 border-collapse"
+                >
+                  <tbody>
+                    <tr>
+                      <td>
+                        <a href="https://ceboostup.com/">
+                          <img
+                            src="https://cdn.jsdelivr.net/gh/phuwit/CE-Boostup-XII-Email-Maizzle@main/src/images/logo.png"
+                            alt="CE Boostup XII Logo"
+                            height="36"
+                          />
+                        </a>
+                      </td>
+                      <td class="px-2">
+                        <b class="my-auto inline-block">
+                          CE Boost Up XII
+                        </b>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
 
-          <table>
-            <tr>
-              <td class="p-6 text-base shadow-sm space-y-8">
-                <div class="h-11">
-                  <img
-                    src="https://cdn.jsdelivr.net/gh/phuwit/CE-Boostup-XII-Email-Maizzle@main/src/images/logo.png"
-                    alt="CE Boostup XII Logo"
-                    class="h-full"
-                  />
-                  <p class="font-bold my-auto inline-block mx-2">CE Boost Up XII</p>
-                </div>
-
-                <p>
-                  สวัสดีน้อง
-                  <span class="font-bold">@{{name}}</span>
-                </p>
-
+                <p>สวัสดีน้อง <b>@{{name}}</b></p>
                 <div>
-                  <p>instruction</p>
-                  <ol class="list-decimal ml-5">
+                  <p>หากต้องการเปลี่ยนรหัสผ่าน กดเพื่อเข้าลิงค์แล้วทำการกรอกข้อมูล 🤩</p>
+                  <!-- <ol class="list-decimal ml-5">
                     <li>
                       เข้าลิงค์
-                      <a href="@{{url}}" class="text-blue-600 underline">@{{url}}</a>
+                      <table
+                        class="w-full text-blue-600 underline text-wrap break-all"
+                      >
+                        <tr>
+                          <td>
+                            <a href="@{{url}}">@{{url}}</a>
+                          </td>
+                        </tr>
+                      </table>
                     </li>
                     <li>กรอกข้อมูล</li>
-                  </ol>
-                </div>
+                  </ol> -->
+                  </div>
 
-                <!-- <x-divider space-y="32px" class="bg-slate-200" /> -->
+                  <div>
+                    <a class="bg-[#10516C] p-3 w-fit rounded-lg shadow-md text-white inline-block no-underline" href="@{{url}}">
+                      <b>
+                        เปลี่ยนรหัสผ่านเลย
+                      </b>
+                    </a>
+                  </div>
 
-                <p>หากพบปัญหาหรือมีข้อสงสัย ติดต่อที่พี่นาน่า, พี่ณัฐ, พี่กัน</p>
+                <p>
+                  หากพบปัญหาหรือมีข้อสงสัย ติดต่อที่พี่นาน่า, พี่ณัฐ, พี่กัน
+                </p>
               </td>
             </tr>
           </table>
